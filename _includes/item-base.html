@@ -1,0 +1,26 @@
+<div class="row item">
+  <div class="col-12">
+    <article class="post-preview">
+      <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+        <h3 class="post-title">{{ post.title }}</h3>
+
+        {% if post.subtitle %}
+          <h4 class="post-subtitle">{{ post.subtitle }}</h4>
+        {% else %}
+          <h4 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h4>
+        {% endif %}
+      </a>
+      <p class="post-meta">
+        Posted by:
+        {% if post.author %}
+          {{ post.author }}
+        {% else %}
+          {{ site.author.name }}
+        {% endif %}
+        on:
+        {{ post.date | date: '%B %d, %Y' }} &middot; {% include read-time.html content=post.content %}
+      </p>
+    </article>
+  </div>
+</div>
+<hr>

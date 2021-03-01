@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Tổng hợp sách và tài liệu miễn phí</title>
+ <link href="http://localhost:4000/blog/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/blog/"/>
+ <updated>2020-01-01T19:39:01+07:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name>taimienphi</name>
+   <email>taimienphi101[@]gmail[dot]com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Hướng dẫn download từ adf.ly, shorte.st, ouo.io</title>
+   <link href="http://localhost:4000/blog/2019/10/26/huong-dan-tai/"/>
+   <updated>2019-10-26T00:00:00+07:00</updated>
+   <id>http://localhost:4000/2019/10/26/huong-dan-tai</id>
+   <content type="html">&lt;p&gt;Một ngày đẹp trời, bạn đi dạo trên internet và phát hiện có tài liệu hay phần mềm cần sử dụng, lập tức bạn bấm chuột vào mục download để tải về nhưng nó lại chuyển sang một trang khác như  adf.ly, shorte.st, ouo.io, www.fshare.vn, … bạn đừng vội tắt nó đi mà hãy làm vài bước đơn giản là có thể download được. Tôi sẽ hướng dẫn các bạn cách download tại các trang phổ biến hiện nay&lt;/p&gt;
+
+&lt;h4 id=&quot;trang-adfly&quot;&gt;Trang adf.ly&lt;/h4&gt;
+
+&lt;p&gt;Khi vào trang này, bạn hãy nhìn góc trên cùng bên phải chờ đếm ngược 5 giây.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Khi hết đếm ngược sẽ xuất hiện ô màu vàng có chữ SKIP AD (nếu là tiếng Anh) hoặc BỎ QUA QUẢNG CÁO (nếu là tiếng Việt) ở góc phải trên cùng&lt;/li&gt;
+  &lt;li&gt;Sau đó, các bạn hãy bấm vào chữ SKIP AD hoặc BỎ QUA QUẢNG CÁO.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Cuối cùng, nó sẽ chuyển đến trang download mà cần&lt;/p&gt;
+
+&lt;h4 id=&quot;trang-shortest&quot;&gt;Trang shorte.st&lt;/h4&gt;
+
+&lt;p&gt;Tương tự như khi vào trang adf.ly, khi vào trang này bạn hãy nhìn góc trên cùng bên phải chờ đếm ngược 5 giây.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Khi hết đếm ngược sẽ xuất hiện ô màu vàng có chữ SKIP THIS AD (nếu là tiếng Anh) hoặc BỎ QUA QUẢNG CÁO NÀY (nếu là tiếng Việt) ở góc phải trên cùng&lt;/li&gt;
+  &lt;li&gt;Các bạn hãy bấm vào chữ SKIP THIS AD hoặc BỎ QUA QUẢNG CÁO NÀY.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;trang-ouoio&quot;&gt;Trang ouo.io&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Bạn nhấn vào khung I’m not a robot&lt;/li&gt;
+  &lt;li&gt;Bạn chờ chạy hết thời gian đếm ngược hết 3s rồi bấm vào nút GET LINK và chuyển đến trang download để chúng ta download&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;trang-wwwfsharevn&quot;&gt;Trang www.fshare.vn&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Nhấn vào nút Tải miễn phí&lt;/li&gt;
+  &lt;li&gt;Nhìn vào phía dưới dòng chữ File sẽ tự động tải xuống sau thời gian:, bạn chờ chạy hết thời gian đếm ngược 30s sẽ xuất hiện trang để bạn tải xuống.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+
+</feed>

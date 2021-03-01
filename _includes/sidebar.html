@@ -1,0 +1,22 @@
+<div class="col-12 bg-info text-light dl-sidebar-header">
+	{{ site.text.page | upcase }}/{{ site.brand | upcase }}
+</div>
+<div class="dl-sidebar-content">
+	<ul class="nav nav-pills nav-stacked">
+		<li>
+			<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+	    	<a href="{{ site.root_url }}/blog/">
+	    		Blog
+	    	</a>
+		</li>
+
+		{% for book_cnt in (1..site.db.book_page_cnt) %}
+			<li>
+				<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            	<a href="{{ site.root_url }}/{{ site.text.subsite_url_text }}{{ book_cnt | prepend: '000' | slice: -3, 3 }}">
+            		{{ site.text.subsite_text | capitalize }}{{ book_cnt | prepend: '000' | slice: -3, 3 }}
+            	</a>
+			</li>
+	    {% endfor %}
+	</ul>
+</div>

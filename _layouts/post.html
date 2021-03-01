@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="container">
+	<div class="row">
+		<div class="col-md-9">
+			<div class="dl-primary">
+				<hr>
+				{% include post-base.html %}
+				<div class="my-3 text-center">(-&-)</div>
+				{{ content }}
+			</div>
+
+			{% include related-post.html %}
+		</div>
+
+		<div class="col-md-3">
+			<div class="dl-sidebar">
+				{% include sidebar.html %}
+			</div>
+		</div>
+	</div>
+</div>

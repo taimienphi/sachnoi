@@ -1,0 +1,29 @@
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>
+    {% if page.title == "Home" %}
+      {{ site.title }} &middot; {{ site.tagline }}
+    {% else %}
+      {{ page.title }} &middot; {{ site.title }}
+    {% endif %}
+  </title>
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="{{ "assets/images/favicon.ico" | relative_url }}">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ "/atom.xml" | relative_url }}">
+
+  <link href="{{ "assets/css/screen.css" | relative_url }}" rel="stylesheet">
+
+  <meta name="google-site-verification" content="{{site.db.gg-site-verify}}" />
+
+  {% seo %}
+</head>

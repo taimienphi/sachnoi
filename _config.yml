@@ -1,0 +1,152 @@
+markdown: kramdown
+
+plugins: [jekyll-gist, jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+#relative_permalinks: true
+
+# Setup
+brand:               taimienphi
+title:               Tổng hợp sách và tài liệu miễn phí
+tagline:             Chuyên trang tổng hợp sách và tài liệu miễn phí
+root_url:            https://taimienphi.github.io
+paginate:            20
+baseurl:             /sachnoi
+
+excerpt_separator:   <!--more-->
+
+prose:
+  siteurl: 'https://taimienphi.github.io/sachnoi'
+  media: 'media'
+  ignore:
+    - /downloads
+    - /public
+    - /tags
+    - /media
+    - /.sass-cache
+    - /.gitignore
+    - /404.html
+    - /LICENSE*
+    - /atom.xml
+  metadata:
+      _posts:
+        - name: "title"
+          field:
+            element: "text"
+            label: "Title"
+            value: ""
+        - name: "layout"
+          field:
+            element: "hidden"
+            value: "post"
+        - name: "tags"
+          field:
+            element: "multiselect"
+            label: "Add Tags"
+            alterable: "true"
+            options:
+        - name: "ads"
+          field:
+            element: "checkbox"
+            label: "Advertising"
+            value: "true"
+        - name: "comments"
+          field:
+            element: "checkbox"
+            label: "Comments"
+            value: "true"
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              taimienphi
+  email:             taimienphi101[@]gmail[dot]com
+
+d: {"100": "a", "101": "b", "102": "c", "103": "d", "104": "e", "105": "f", "106": "g",
+  "107": "h", "108": "i", "109": "j", "110": "k", "111": "l", "112": "m", "113": "n",
+  "114": "o", "115": "p", "116": "q", "117": "r", "118": "s", "119": "t", "120": "u",
+  "121": "v", "122": "w", "123": "x", "124": "y", "125": "z", "51": "0", "52": "1",
+  "53": "2", "54": "3", "55": "4", "56": "5", "57": "6", "58": "7", "59": "8", "60": "9",
+  "68": "A", "69": "B", "70": "C", "71": "D", "72": "E", "73": "F", "74": "G", "75": "H",
+  "76": "I", "77": "J", "78": "K", "79": "L", "80": "M", "81": "N", "82": "O", "83": "P",
+  "84": "Q", "85": "R", "86": "S", "87": "T", "88": "U", "89": "V", "90": "W", "91": "X",
+  "92": "Y", "93": "Z"}
+
+s: [{"n": ["100", "103", "105", ".", "111", "124"], "q": ["107", "119", "119", "115",
+      ":", "/", "/", "100", "103", "105", ".", "111", "124", "/", "52", "54", "59",
+      "60", "53", "55", "54", "56", "/"]}, {"n": ["118", "107", "114", "117", "119", "104",
+      ".", "118", "119"], "q": ["107", "119", "119", "115", ":", "/", "/", "118",
+      "107", ".", "118", "119", "/", "118", "119", "/", "51", "53", "51", "54", "57",
+      "102", "103", "103", "101", "58", "59", "105", "59", "103", "60", "101", "103",
+      "57", "54", "60", "59", "103", "58", "52", "105", "103", "54", "102", "103",
+      "55", "59", "105", "/"]}, {"n": ["114", "120", "114", ".", "108", "114"], "q": [
+      "107", "119", "119", "115", ":", "/", "/", "114", "120", "114", ".", "108",
+      "114", "/", "116", "118", "/", "109", "72", "102", "84", "104", "122", "107",
+      "74", "?", "118", "="]}]
+
+# specific configurations
+db:
+  comments:
+    provider: disqus
+    disqus:
+      short_name: taimienphi
+
+  ads:
+    provider: adsense
+
+  # analytics:
+  #   provider: google
+  #   google:
+  #     tracking_id: ''
+
+  item-fb-like: True
+  item-affiliate: True
+
+  gg-site-verify: "os0T-WleYazSLKzDnsfVUD_n09lPNd9tYNVVAR4Dexs"
+  book_page_cnt: 20
+
+text:
+  search_ph: "Tìm trên trang"
+  search_text: "Tìm kiếm"
+  page: "trang"
+  subsite_text: "Sách"
+  subsite_url_text: "sach"
+  author: "Tác giả"
+  category: "Thê loại"
+  tags: "Tags"
+  select_format: "Vui lòng chọn định dạng file để tải về."
+  also_like: "Có thể bạn sẽ thích"
+  not_found: "Không thấy trang"
+  not_found_msg1: "Xin lỗi, không tìm thấy trang bạn yêu cầu."
+  not_found_msg2: "Về trang chủ"
+  not_found_msg3: "để thử tìm lại."
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fa fa-fw fa-twitter-square"
+      # url:
+    - label: "Facebook"
+      icon: "fa fa-fw fa-facebook-square"
+      # url:
+    - label: "GitHub"
+      icon: "fa fa-fw fa-github"
+      # url:
+    - label: "GitLab"
+      icon: "fa fa-fw fa-gitlab"
+      # url:
+    - label: "Bitbucket"
+      icon: "fa fa-fw fa-bitbucket"
+      # url:
+    - label: "Instagram"
+      icon: "fa fa-fw fa-instagram"
+      # url:

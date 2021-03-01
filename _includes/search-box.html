@@ -1,0 +1,13 @@
+<form class="form-inline mb-2">
+  <input class="form-control mr-2" type="text" placeholder="{{ site.text.search_ph }}" aria-label="Search" id="searchbox" onsubmit="my_search_google()">
+  <button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="my_search_google()">{{ site.text.search_text }}</button>
+</form>
+
+<script language="Javascript" type="text/javascript">
+  function my_search_google()
+  {
+    var query = document.getElementById("searchbox").value;
+    window.open("http://google.com/search?q=" + query
+	+ "%20site:" + "{{ site.url }}");
+  }
+</script>
